@@ -10,7 +10,7 @@ int main()
     // 1 Задача
 
     // тип float
-    float fa = 1000 , fb = 0.0001f;                                             // Задаем переменные a и b
+    float fa = 1000 , fb = 0.0001;                                             // Задаем переменные a и b
     float fc = pow(fa,3) + 3 * pow(fa,2) * fb + 3 * fa * pow(fb,2) + pow(fb,3); // (a+b)^3
     float fd = pow(fa,3) + 3 * pow(fa,2) * fb;                                  // (a^3 + 3a^2b)
     float fe = 3 * fa * pow(fb,2) + pow(fb,3);                                  // (3ab^2 + b^3)
@@ -31,26 +31,6 @@ int main()
 
     cout << "Результат с типом float: " << fresult << endl;                      // вывод результата float
     cout << "Результат с типом double: " << dresult << endl;                     // вывод результата float
-
-    // 2 Задача
-
-    int n = 8, m = 9; // Задаем переменные n и m
-    int a,b,c;                  
-
-    //1)
-    a = n---m;
-    //2)
-    b = m--<n;
-    //3)
-    c = n++>m;
-
-    // Вывод результатов 2 задачи
-
-    cout << "2 Задача:" << endl;
-
-    cout << "1)" << a << endl;
-    cout << "2)" << b << endl;
-    cout << "3)" << c << endl;
     
     return 0;
 }
